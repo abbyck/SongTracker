@@ -13,7 +13,7 @@ app.use(cors())
 
 app.post('/register', (req, res) => {
   res.send({
-    message: `Hello ${req.body.email} , You have been registered successfully , Login now`
+    message: `Hello ${req.body.email} , You have been registered successfully , Login route`
   })
 })
 
